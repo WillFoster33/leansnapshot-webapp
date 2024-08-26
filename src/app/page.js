@@ -16,7 +16,6 @@ export default function Home() {
 
   if (isLoading) return <div>Loading...</div>;
 
-  if (user) return null; // Prevent flash of content during redirect
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
